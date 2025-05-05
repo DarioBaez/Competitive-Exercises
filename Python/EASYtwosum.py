@@ -8,61 +8,27 @@ Puedes asumir que siempre existirá exactamente una solución (no tienes que pre
 No puedes usar el mismo elemento dos veces (por ejemplo, no puedes usar dos veces el mismo índice).
 
 Puedes devolver los índices en cualquier orden (no importa si primero uno o el otro)."""
+def two_sum(nums, target):
+    n = len(nums)
+    for i in range(n):
+        for j in range(i + 1, n):  # Importante: empezar desde i + 1 para no usar dos veces el mismo elemento
+            if nums[i] + nums[j] == target:
+                return [i, j]
+    return []  # Por si acaso, aunque según el problema siempre hay solución
 
-def ArrayOrderer(Array, T):
+# Forma de pedir el arreglo:
+def pedir_arreglo():
+    nums = []
 
-     n = len(Array);
-     for I in range(n):
+    while True:
+        try:
+            valor = int(input("Escribe un nuevo valor: "))
+            nums.append(valor)
+        except ValueError:
+            target = int(input("Inserta tu target: "))
+            break
 
-          for j in range(0, n - I - 1):
+    resultado = two_sum(nums, target)
+    print("Indices encontrados:", resultado)
 
-               if Array[j] > Array[j + 1]:
-                    Array[j], Array[j + 1] = Array[j + 1], Array[j]
-     
-     Suma = 0
-     IndexList = []
-     
-
-     for I in range(len(Array)):
-               
-          Suma  += Array[I]
-          IndexList.append(Array.index(Array[I]))
-
-          if T == Suma:
-               break
-          elif T < Suma:
-               
-               break
-        
-     print(Array)
-     print(T)
-     print(IndexList)
-
-
-def PedirArreglo():
-     
-     Array = []
-
-     while True:
-
-          try:
-               Resultado = int(input("Write your new value: "))
-               Array.append(Resultado)
-
-          except ValueError:
-
-               
-               target = int(input("Insert your target: "))
-               break
-
-     ArrayOrderer(Array, target);
-
-     
-
-PedirArreglo()
-
-
-
-
-"""Array = [3,2,4,5,1,23,123,12,3,4,44,12,452,5,3]
-print(ArrayOrderer(Array))"""
+pedir_arreglo()
