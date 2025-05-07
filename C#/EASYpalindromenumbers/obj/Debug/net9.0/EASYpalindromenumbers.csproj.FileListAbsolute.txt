@@ -1,0 +1,15 @@
+D:\Competitive problems\C#\EASYpalindromenumbers\bin\Debug\net9.0\EASYpalindromenumbers.exe
+D:\Competitive problems\C#\EASYpalindromenumbers\bin\Debug\net9.0\EASYpalindromenumbers.deps.json
+D:\Competitive problems\C#\EASYpalindromenumbers\bin\Debug\net9.0\EASYpalindromenumbers.runtimeconfig.json
+D:\Competitive problems\C#\EASYpalindromenumbers\bin\Debug\net9.0\EASYpalindromenumbers.dll
+D:\Competitive problems\C#\EASYpalindromenumbers\bin\Debug\net9.0\EASYpalindromenumbers.pdb
+D:\Competitive problems\C#\EASYpalindromenumbers\obj\Debug\net9.0\EASYpalindromenumbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Competitive problems\C#\EASYpalindromenumbers\obj\Debug\net9.0\EASYpalindromenumbers.AssemblyInfoInputs.cache
+D:\Competitive problems\C#\EASYpalindromenumbers\obj\Debug\net9.0\EASYpalindromenumbers.AssemblyInfo.cs
+D:\Competitive problems\C#\EASYpalindromenumbers\obj\Debug\net9.0\EASYpalindromenumbers.csproj.CoreCompileInputs.cache
+D:\Competitive problems\C#\EASYpalindromenumbers\obj\Debug\net9.0\EASYpalindromenumbers.sourcelink.json
+D:\Competitive problems\C#\EASYpalindromenumbers\obj\Debug\net9.0\EASYpalindromenumbers.dll
+D:\Competitive problems\C#\EASYpalindromenumbers\obj\Debug\net9.0\refint\EASYpalindromenumbers.dll
+D:\Competitive problems\C#\EASYpalindromenumbers\obj\Debug\net9.0\EASYpalindromenumbers.pdb
+D:\Competitive problems\C#\EASYpalindromenumbers\obj\Debug\net9.0\EASYpalindromenumbers.genruntimeconfig.cache
+D:\Competitive problems\C#\EASYpalindromenumbers\obj\Debug\net9.0\ref\EASYpalindromenumbers.dll
